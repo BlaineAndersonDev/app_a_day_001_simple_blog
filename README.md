@@ -93,8 +93,36 @@ end
     ...
     ```
     * `@article` is an instance variable which can be pased to the view.
-  * Now open our view
-* 
+  * Now in terminal create the associated view: `touch app/views/articles/new.html.erb`. 
+    * Then paste the following inside:
+    ```
+    <h1>New Article<h1>
+
+    <%= form_for :article, url: articles_path do |f|%>
+
+      <p>
+        <%= f.label :title %><br>
+        <%= f.text_field :title %>
+      </p>
+
+      <p>
+        <%= f.label :author %><br>
+        <%= f.text_field :author %>
+      </p>
+
+      <p>
+        <%= f.label :text %><br>
+        <%= f.text_field :text %>
+
+      <p>
+        <%= f.submit %>
+      </p>
+
+    <% end %>
+    ```
+    * `<%= form_for :article, url: articles_path do |f|%>`
+    * <%= form_for :OBJECT/INSTANCE_VARIABLE, url: CONTROLLER_PATH do |f| %>
+    * [Additional Docs on form_for](https://guides.rubyonrails.org/v5.2/form_helpers.html#binding-a-form-to-an-object)
 * 
 * 
 * 
