@@ -77,6 +77,61 @@ end
 ```
 * The available routes can be checked in terminal (command line) with the command `rake routes`.
 * **Commit and Push**
+
+## [MVC Generation](#mvc-generation)
+* `rails generate controller Articles`
+  * *Note: The controllers class is **Capitilized** and **Plurel**.*
+  * Open the newly created controller at `app/controllers/articles_controller.rb`.
+    * Create a method named `new` and paste in the following:
+    ```
+    ...
+
+    def new
+      @article = Article.new
+    end
+
+    ...
+    ```
+    * `@article` is an instance variable which can be pased to the view.
+  * Now open our view
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
 * 
 * 
 * 
