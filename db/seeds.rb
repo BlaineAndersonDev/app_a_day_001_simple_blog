@@ -5,3 +5,13 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+require 'faker'
+#https://github.com/faker-ruby/faker/blob/master/doc/default/hipster.md
+
+6.times do |i|
+  Article.create(
+    title: Faker::Hipster.word, 
+    author: Faker::Name.name, 
+    text: Faker::Hipster.paragraph(sentence_count: 3)
+  )
+end
