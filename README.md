@@ -1,7 +1,7 @@
 # App A Day
 ### 001 - Simple Blog
 
-## Steps
+## [App creation & Route Generation](#app-creation-route-generation)
 * `rails new simple_blog -t -d postgresql -b`
     * `-t` disallows test autogeneration.
     * `-d` requires a different database than the default MySQL (I specified postgresql).
