@@ -1,5 +1,6 @@
 # App A Day
 ### 001 - Simple Blog
+> Loosly based on [Ruby on Rails Beginner Adventures: Simple Blog Application](https://1sherlynn.medium.com/ruby-on-rails-beginner-adventures-simple-blog-application-6dffd6dcb11a)
 
 ## [App creation & Route Generation](#app-creation-route-generation)
 * `rails new simple_blog -t -d postgresql -b`
